@@ -25,8 +25,9 @@ This project includes:
 
 ✔ Exported .pkl model for deployment
 
-##🗂️ Project Structure
----text
+## 📁 Project Structure
+
+```
 SQL Project/
 │
 ├── data/
@@ -41,7 +42,8 @@ SQL Project/
 ├── Hr analytics sql queries.sql
 │
 └── README.md
----
+```
+
 ##📁 Dataset Information
 
 The dataset contains 5,000 employee records with the following categories:
