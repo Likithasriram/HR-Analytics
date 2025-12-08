@@ -26,21 +26,22 @@ This project includes:
 ✔ Exported .pkl model for deployment
 
 ##🗂️ Project Structure
-
+---text
 SQL Project/
 │
 ├── data/
-│ └── HR_Analytics_5000.csv
+│   └── HR_Analytics_5000.csv
 │
 ├── models/
-│ └── attrition_model.pkl
+│   └── attrition_model.pkl
 │
 ├── notebooks/
-│ └── HR_Attrition.ipynb
+│   └── HR_Attrition.ipynb
 │
 ├── Hr analytics sql queries.sql
+│
 └── README.md
-
+---
 ##📁 Dataset Information
 
 The dataset contains 5,000 employee records with the following categories:
