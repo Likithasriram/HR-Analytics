@@ -6,7 +6,7 @@ A complete end-to-end Data Analytics + SQL + Machine Learning project designed t
 
 Employee attrition leads to loss of talent, higher recruitment costs, and decreased productivity.
 This project analyzes 5,000+ employee records to uncover:
-
+This project goes beyond descriptive analysis by validating key drivers using statistical hypothesis testing.
 - Why employees leave  
 - Which departments face higher attrition  
 - Key factors influencing churn  
@@ -153,7 +153,7 @@ Random Forest identifies the top predictors:
 ## 💡 Key Insights
 
 - 🔸 Low satisfaction scores strongly correlate with attrition  
-- 🔸 Overtime workers have substantially higher churn risk  
+- 🔸 Overtime shows a correlation with attrition in initial analysis, but statistical testing indicates it is not a significant standalone factor    
 - 🔸 Certain job roles show higher attrition than others  
 - 🔸 Employees with lower salary ranges leave more often  
 - 🔸 Remote workers tend to stay longer  
@@ -166,6 +166,20 @@ Prediction: **1 (Likely to Leave)**
 Probability: **0.78**
 
 This enables HR teams to proactively identify employees needing attention.
+
+ ## 🧪 A/B Test Analysis (Attrition Drivers)
+
+To validate whether overtime has a significant impact on employee attrition, a statistical hypothesis test (Chi-square test) was performed.
+
+### Result:
+- P-value: 0.63 (> 0.05)
+
+### Insight:
+No statistically significant relationship was found between overtime and attrition.
+
+### Business Interpretation:
+Overtime alone is not a major driver of employee churn. Other factors such as job satisfaction, compensation, and work environment may have a stronger influence on attrition.
+
 
 
 ## 🛠 Technologies & Skills Demonstrated
@@ -180,8 +194,9 @@ This enables HR teams to proactively identify employees needing attention.
 
 ### **Core Skills**
 - Data Cleaning & Preparation  
-- Exploratory Data Analysis  
+- Exploratory Data Analysis (EDA)  
 - SQL Query Development  
+- Statistical Analysis & Hypothesis Testing (Chi-square test)  
 - Classification Modeling  
 - ROC-AUC Optimization  
 - Feature Engineering  
